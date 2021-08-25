@@ -1,0 +1,88 @@
+
+body{
+    background-color: rgb(42, 3, 78);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    width: 100vw;
+}
+
+.container{
+    background-color: rgb(125, 37, 240);
+    border: solid 5px rgb(247, 247, 247);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    width: 20em;
+    padding-top: 20px;
+}
+
+fieldset{
+    border: solid 0px green;
+    width: 80%;
+}
+
+.fieldinputs{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.fieldinputs input{
+    border-bottom: solid 3px white;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: rgba(230, 230, 250, 0);
+    border-radius: 5px;
+    color: lavender;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.fielbtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fielbtn button{
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgb(238, 240, 240);
+    font-size: 18px;
+    height: 80%;
+    margin: 2px;
+    padding: 0.5rem;
+    position: relative;
+    top: 50px;
+    width: 25%;
+}
+
+.fielbtn button:hover{
+    background-color: indigo;
+    color: lavender;
+    transition: 0.6s;
+}
+
+.fielbtn button:focus{
+    background-color: rgb(175, 152, 190);
+    cursor:pointer;
+}
+
+.resultado{
+    color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+}

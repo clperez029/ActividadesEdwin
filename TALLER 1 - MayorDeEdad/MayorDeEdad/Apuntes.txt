@@ -1,0 +1,16 @@
+// Dado el nombre y la edad de una persona, el sistema mostrará en pantalla si es mayor de edad en Colombia, en el siguiente mensaje:
+// Sr(a) <Nombre ingresado> usted es <mayor/menor de edad>
+// let variable1;
+// const variable2;
+// var variable3;
+
+// let variable1;
+// const constantes;
+// console.log(var1+var2);
+
+let variable1 = 55;
+variable1 = "Hello world";
+variable1 = true;
+// console.log(variable1 + typeof variable1);
+// console.log(variable1 + typeof variable1);
+// console.log(variable1 + typeof variable1);

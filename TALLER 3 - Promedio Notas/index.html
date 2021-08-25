@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TALLER 3 - Promedio Notas/CSS/style.css">
+    <link rel="shortcut icon" href="../TALLER 3 - Promedio Notas/img/logoSena.png" type="image/png">
+    <title>Cálculo y promedio de Notas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">Promedio Notas</h1>
+        <div class="notasInput">
+            <fieldset>
+                <Label>Nota 1:</Label>
+                <input type="number" id="nota1" min="1.0" max="5.0" placeholder="nota1" value="0">
+            </fieldset>
+            <fieldset>
+                <Label>Nota 2:</Label>
+                <input type="number" id="nota2" min="1.0" max="5.0" placeholder="nota2" value="0">
+            </fieldset>
+            <fieldset>
+                <Label>Nota 3:</Label>
+                <input type="number" id="nota3" min="1.0" max="5.0" placeholder="nota3" value="0">
+            </fieldset>
+            <fieldset>
+                <Label>Nota 4:</Label>
+                <input type="number" id="nota4" min="1.0" max="5.0" placeholder="nota4" value="0">
+            </fieldset>
+            <fieldset>
+                <Label>Nota 5:</Label>
+                <input type="number" id="nota5" min="1.0" max="5.0" placeholder="nota5" value="0">
+            </fieldset>
+            <fieldset class="resultado">
+                <label for="">Nota Final: </label>
+                <label for="" id="notaFinal"></label>
+            </fieldset>
+            <fieldset class="trimestre">
+                <label for="">Mensaje: </label>
+                <label for="" id="msjTrimestre"></label>
+            </fieldset>
+            <button class="btn-Calcular" id="btnCalcularNotas">Calcular Notas</button>
+        </div>
+    </div>
+</body>
+<script src="../TALLER 3 - Promedio Notas/JS/app.js"></script>
+
+</html>
