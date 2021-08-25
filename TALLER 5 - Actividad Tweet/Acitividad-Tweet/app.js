@@ -9,7 +9,7 @@ const btnSend = document.querySelector('#btn-send');
 
 
 usuario.addEventListener('keyup', letraInicail);
-tweet.addEventListener('keypress', contadorTweets);
+tweet.addEventListener('keydown', contadorTweets);
 
 function letraInicail(){
     const user = usuario.value;
