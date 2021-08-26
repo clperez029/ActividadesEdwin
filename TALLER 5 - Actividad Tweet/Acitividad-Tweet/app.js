@@ -28,51 +28,34 @@ function contadorTweets(){
     if (escrito.length >= 200){
         mensaje.textContent = "El límite de escritura son 200 Caracteres";
         mensaje.style.color = "red";
+        mensaje.style.display = "block";
         contador.style.color = "red";
     }
 
     else if (escrito.length >= 150 && escrito.length < 170){
         mensaje.textContent = "Le quedan menos de 50 caracteres";
         mensaje.style.color = "#130f40";
-        mensaje.style.fontSize= '18px';
-        mensaje.style.fontFamily= 'Arial, sans-serif';
-        mensaje.style.background= 'white';
-        mensaje.style.borderRadius= '7px';
-        mensaje.style.width= '80%';
-        mensaje.style.padding= '10px';
-        mensaje.style.textAlign = 'center';
+        mensaje.style.display = "block";
         contador.style.color = "#white";
     }
 
     else if (escrito.length >= 170 && escrito.length < 190){
         mensaje.textContent = "Le quedan menos de 30 caracteres";
         mensaje.style.color = "#30336b";
-        mensaje.style.fontSize= '18px';
-        mensaje.style.fontFamily= 'Arial, sans-serif';
-        mensaje.style.background= 'white';
-        mensaje.style.borderRadius= '7px';
-        mensaje.style.width= '80%';
-        mensaje.style.padding= '10px';
-        mensaje.style.textAlign = 'center';
+        mensaje.style.display = "block";
         contador.style.color = "#c8d6e5";
     }
 
     else if (escrito.length >= 190 && escrito.length < 200){
         mensaje.textContent = "Le quedan menos de 10 caracteres";
         mensaje.style.color = "black";
-        mensaje.style.fontSize= '18px';
-        mensaje.style.fontFamily= 'Arial, sans-serif';
-        mensaje.style.background= 'white';
-        mensaje.style.borderRadius= '7px';
-        mensaje.style.width= '80%';
-        mensaje.style.padding= '10px';
-        mensaje.style.textAlign = 'center';
+        mensaje.style.display = "block";
         contador.style.color = "black";
     }
 
     else{
         mensaje.textContent = "";
-        mensaje.style.background= 'transparent';
+        mensaje.style.display = "none";
         contador.style.color = "white";
     }
 
