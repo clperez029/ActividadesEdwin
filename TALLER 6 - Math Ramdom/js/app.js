@@ -8,7 +8,8 @@ function CambiarColor(){
     let G = valorRGB(0, 255)
     let B = valorRGB(0, 255)
 
-    container.style.backgroundColor = "rgb(" + R + "," + G + "," + B + ")";
+    // container.style.backgroundColor = "rgb(" + R + "," + G + "," + B + ")";
+    container.style.backgroundColor = `rgb(${R},${G},${B})`;
 };
 
 function valorRGB(min, max) {
