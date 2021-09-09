@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+.container{
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.seccionColumnas{
+    align-items: center;
+    display: flex;
+    /* background-color: rgb(108, 229, 233); */
+    width: 90%;
+    justify-content: center;
+    height: 60%;
+}
+
+.col1{
+    align-items: center;
+    background-color: rgb(159, 165, 156);
+    border: coral .5rem solid;
+    border-radius: 10px;
+    display: flex;
+    height: 95%;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    width: 45%;
+}
+
+.marcoIMG{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgRamdom{
+    max-height: 100%;
+    width: 100%;
+}
+
+.imgRamdom img{
+    width: 100%;
+}
+
+.col2{
+    align-items: center;
+    background-color: rgb(39, 83, 80);
+    border: rgb(119, 117, 117) .5rem solid;
+    display: flex;
+    height: 95%;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    width: 45%;
+}
+
+.imgemoji{
+    max-height: 100%;
+    width: 80%;
+}
+
+.imgemoji img{
+    width: 80%;
+}
+
+
+
+.acciones{
+    align-items: center;
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.btn-CambiarImg{
+    border-style: none;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 1.7rem 1rem;
+    font-size: 1.5rem;
+    width: 16rem;
+}
+
+.img-button-like-dislike{
+    background-color: transparent;
+    border-style: none;
+}
+
+.img-button-like-dislike img{
+    width: 6rem;
+}
+
